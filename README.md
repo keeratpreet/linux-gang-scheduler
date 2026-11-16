@@ -112,3 +112,7 @@ Review the hook implementations against your actual kernel version's
 - `register_gang` rejects a gang once it has `num_possible_cpus()` members,
   which assumes one thread per core is the intended usage — oversubscribed
   gangs aren't supported.
+
+## License
+
+Released under the [GNU General Public License v2.0](LICENSE), matching the Linux kernel it extends.
